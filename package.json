@@ -1,0 +1,18 @@
+{
+  "name": "myProfileApp",
+  "version": "0.1.0",
+  "description": "Node Server for my Profile",
+  "main": "app.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha -w app.js test.js",
+    "start": "node bin/www"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "redis": "^2.4.2",
+    "supertest": "^1.1.0"
+  },
+  "devDependencies": {},
+  "author": "Zachary Toner",
+  "license": "ISC"
+}
